@@ -8,7 +8,7 @@ import com.simple.common.controller.BaseController;
 import com.simple.example.dto.BannerVO;
 import com.simple.example.service.AdvertService;
 
-import com.simple.core.data.pageBean.SinglePageBean;
+import com.simple.common.pageBean.SinglePageBean;
 
 import com.simple.common.auth.LoginRequired;
 import org.slf4j.Logger;

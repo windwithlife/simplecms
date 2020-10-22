@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 
 @SpringBootApplication(scanBasePackages="com.simple")
-@EnableFeignClients(basePackages = {"com.simple.mail"})
+@EnableFeignClients(basePackages = {"com.simple.account"})
 @EnableTransactionManagement
 @PropertySources({ @PropertySource("classpath:mybatis/mybatis.properties") })
 public class SimpleApplication {

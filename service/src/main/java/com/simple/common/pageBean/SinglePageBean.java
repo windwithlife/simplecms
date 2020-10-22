@@ -1,4 +1,4 @@
-package com.simple.core.data.pageBean;
+package com.simple.common.pageBean;
 
 import java.util.List;
 

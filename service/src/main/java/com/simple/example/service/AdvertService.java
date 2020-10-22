@@ -5,7 +5,7 @@ import com.simple.example.dao.AdvertDao;
 import com.simple.example.dto.AdvertVO;
 import com.simple.example.dto.BannerVO;
 import com.simple.example.model.LiveAdvertModel;
-import com.simple.core.data.pageBean.SinglePageBean;
+import com.simple.common.pageBean.SinglePageBean;
 
 import com.simple.common.error.ServiceException;
 import com.simple.common.utils.DateUtil;
