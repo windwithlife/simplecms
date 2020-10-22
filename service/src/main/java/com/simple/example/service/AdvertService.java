@@ -6,10 +6,9 @@ import com.simple.example.dto.AdvertVO;
 import com.simple.example.dto.BannerVO;
 import com.simple.example.model.LiveAdvertModel;
 import com.simple.core.data.pageBean.SinglePageBean;
-import com.simple.core.data.request.JsonMessage;
-//import com.simple.core.exception.ServiceException;
+
 import com.simple.common.error.ServiceException;
-import com.simple.core.util.DateUtil;
+import com.simple.common.utils.DateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

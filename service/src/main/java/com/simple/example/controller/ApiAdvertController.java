@@ -3,8 +3,7 @@ package com.simple.example.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+
 
 import com.simple.common.api.BaseResponse;
 import com.simple.common.api.GenericRequest;
@@ -21,13 +20,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.simple.example.service.ApiAdvertService;
 
-import com.simple.core.data.message.ResponseMessage;
-import com.simple.core.data.pageBean.SinglePageBean;
-import com.simple.core.data.request.JsonMessage;
-import com.simple.core.exception.CommonExceptionHandle;
+
 
 import com.simple.example.dto.AdvertVO;
-import com.simple.example.dto.BannerVO;
+
 
 
 /**

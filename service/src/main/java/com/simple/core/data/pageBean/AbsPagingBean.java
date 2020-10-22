@@ -1,13 +1,13 @@
 package com.simple.core.data.pageBean;
 
-import com.simple.core.data.message.ResponseMessage;
+
 
 /**
  * 分页参数实体
  * @author hejinguo
  * @version $Id: AbsPagingBean.java, v 0.1 2019年11月17日 下午7:29:31
  */
-public abstract class AbsPagingBean extends ResponseMessage {
+public abstract class AbsPagingBean {
     public static final String INVALID_PARAMETER = "传入的参数不合法";
     /**当前页*/
     private Integer            currentPage;

@@ -5,8 +5,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.simple.core.data.request.JsonMessage;
-//import com.simple.core.exception.ServiceException;
 import com.simple.common.error.ServiceException;
 import com.simple.example.dao.AdvertDao;
 import com.simple.example.dto.AdvertVO;

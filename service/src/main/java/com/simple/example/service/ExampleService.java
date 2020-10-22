@@ -5,7 +5,7 @@ import com.github.structlog4j.SLoggerFactory;
 import com.simple.example.dto.AccountDto;
 import com.simple.example.model.Example;
 import com.simple.example.dao.ExampleRepo;
-import com.simple.core.exception.ServiceHelper;
+import com.simple.common.error.ServiceHelper;
 import com.simple.common.api.ResultCode;
 import com.simple.common.auditlog.LogEntry;
 import com.simple.common.auth.AuthConstant;

@@ -7,19 +7,15 @@ import com.simple.common.api.GenericResponse;
 import com.simple.common.controller.BaseController;
 import com.simple.example.dto.BannerVO;
 import com.simple.example.service.AdvertService;
-import com.simple.core.data.message.ResponseMessage;
+
 import com.simple.core.data.pageBean.SinglePageBean;
-import com.simple.core.data.request.JsonMessage;
-import com.simple.core.exception.CommonExceptionHandle;
-import com.simple.core.interceptor.annotation.LoginRequired;
+
+import com.simple.common.auth.LoginRequired;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.validation.Valid;
 import java.util.ArrayList;
 
 /**

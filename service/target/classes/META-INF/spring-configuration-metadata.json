@@ -11,16 +11,6 @@
       "name": "simple.domain-name",
       "type": "java.lang.String",
       "sourceType": "com.simple.common.props.AppProps"
-    },
-    {
-      "name": "simple.intercom-access-token",
-      "type": "java.lang.String",
-      "sourceType": "com.simple.common.props.AppProps"
-    },
-    {
-      "name": "simple.signing-secret",
-      "type": "java.lang.String",
-      "sourceType": "com.simple.common.props.AppProps"
     }
   ],
   "hints": []
